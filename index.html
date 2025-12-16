@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EmotionScope | Affective Computing Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>EmotionScope</h1>
+    <p>A Lightweight Affective Computing System (Client-Side)</p>
+  </header>
+
+  <main>
+    <textarea id="textInput" placeholder="Type something emotional..."></textarea>
+    <button onclick="analyzeEmotion()">Analyze Emotion</button>
+
+    <section id="results">
+      <h2>Emotion Analysis</h2>
+      <div id="output"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Lakshaya | AI + Human-Centered ML</p>
+  </footer>
+
+  <script src="model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
